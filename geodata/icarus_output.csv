@@ -1,4 +1,4 @@
-lat,lon,url,datetime,avr_prediction_conf
+lon,lat,url,datetime,avr_prediction_conf
 27.60687778,39.18436834,http://pbs.twimg.com/media/D6Y3jG8WAAAT38Q.jpg,2019-05-1221:00:51.988475,0.5073977708816528
 5.39468598,43.26969968,http://pbs.twimg.com/media/D6Y3bavWAAAZ7ux.jpg,2019-05-1221:01:07.513046,0.5155808329582214
 -71.4677572,42.9981018,http://pbs.twimg.com/media/D6Y3udAX4AA1ji0.jpg,2019-05-1221:01:40.541299,0.5558807253837585

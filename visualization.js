@@ -18,9 +18,9 @@
 
 var svg = d3.select("#map").append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 0 1000 650");
+    .attr("viewBox", "0 0 500 500");
 
-var projection = d3.geo.mercator().scale(100);
+var projection = d3.geo.mercator();
 
 var path = d3.geo.path()
   .projection(projection);
@@ -48,27 +48,22 @@ d3.json(infile1, function(topology) {
 // read in ICARUS output
 d3.csv(icarusOut, function(csvData){
     
-    console.log(csvData[0]);
-    console.log(projection(csvData[0].lon, csvData[0].lat)[0]);
-    console.log(projection(csvData[0].lon, csvData[0].lat)[1]);
+    console.log(csvData);
+    
     
     g.selectAll("circle")
         .data(csvData)
         .enter()
         .append("circle")
-        .attr("cx", function(d){
-        
-        return projection(d.lat, d.lon)[0]
-    })
-        .attr("cy", function(d){
-        
-        var y = projection(d.lat, d.lon)[1]
-        console.log(y)
-    })
+        // project points onto the map
+        .attr("transform", function(d) {
+            return "translate(" + projection([(d.lon),(d.lat)]) + ")";
+                    })
         .attr("stroke", "red")
         .attr("r", 1)
-    
-});
+
+
+        });
 
 // zooming behavior
 var zoom = d3.behavior.zoom()
