@@ -9,12 +9,62 @@
 	https://creativecommons.org/licenses/by-sa/4.0/
 
 */
-/* ---------------------- Settings ------------------------ */
-// Set up canvas and Layer-Groups
+
+
+//----------------------TOOLTIP--------------------------
+// Tooltip
+// create a tooltip
+var Tooltip = d3.select("#map")
+  .append("div")
+  .attr("class", "tooltip")
+  .attr("position", "fixed")
+  .style("opacity", 0)
+  //.attr("display", "none")
+  .style("background-color", "#3f3d3d")
+  .style("border", "solid")
+  .style("color", "whitesmoke")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+// Three function that change the tooltip when user hover / move / leave a cell
+var mouseover = function(d) {
+  Tooltip.style("border-color", d3.select(this).attr("stroke"))
+        //.attr("display", "inline")
+        .style("left", (d3.event.pageX + 10) + "px")
+        .style("top", (d3.event.pageY - 100) + "px")
+        .style("opacity", 1)
+        
+      /*.style("left", (d3.mouse(this)[0]) + "px")
+        .style("top", (d3.mouse(this)[1]) + "px");*/
+    
+        var featureClass = d3.select(this).attr("class");
+        
+        // if mouse hovers over point, show image from url
+        
+    
+        if ( featureClass == "point"){
+            Tooltip.html("<img src=" +  d.url  + " />")
+            console.log("MOUSEOVER", " ,URL: " + d.url)
+        }
+        
+    
+    
+    
+    
+var mousemove = function(d) {
+    Tooltip.style("opacity", 1)
+}
+var mouseleave = function(d) {
+    //Tooltip function
+    Tooltip.style("opacity", 0)
+    
+    }
+}
 
 
 
-
+//----------------------MAPPING--------------------------
 
 var svg = d3.select("#map").append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
@@ -61,6 +111,12 @@ d3.csv(icarusOut, function(csvData){
                     })
         .attr("stroke", "red")
         .attr("r", 1)
+        .attr("class", "point")
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseleave", mouseleave);
+    
+        
 
 
         });
