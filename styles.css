@@ -70,6 +70,12 @@
     }
 }
 
+path {
+    stroke: white;
+    stroke-width: 1px;
+    fill: none;
+}
+
 body {
     background: #3f3d3d;
 }
@@ -167,20 +173,6 @@ p {
     #map {
     }
 
-
-        .kantone{
-            fill: #CB904D;
-            stroke: #333333;
-            stroke-width: 1;
-        }
-
-        .lakes{
-            fill: #1b2782;
-            stroke: #333333;
-            stroke-width: 1;
-
-        }
-
     #sidebar {
         border-left-style: solid;
         border-left-width: thin;
@@ -200,121 +192,7 @@ label {
     color: whitesmoke;
 }
 
-input[type=checkbox]{
-    margin-left: 20px;
-    height: 15px;
-    width: 15px;
-}
 
-
-/* Slider Styling for Mozilla and Chrome */
-input[type=range] {
-    -webkit-appearance:none;
-    width: 100%;
-}
-
-input[type=range]:focus {
-    outline: none;
-}
-
-input[type=range]::-webkit-slider-runnable-track{
-    width: 100%;
-    height: 2px;
-    cursor: pointer;
-}
-input[type=range]::-moz-range-track{
-    width: 100%;
-    height: 2px;
-    cursor: pointer;
-}
-
-input[type=range]::-webkit-slider-thumb{
-    height: 50px;
-    width: 20px;
-    border-radius: 3px;
-    background-color: transparent;
-    cursor: pointer;
-    -webkit-appearance: none;
-}
-input[type=range]::-moz-range-thumb{
-    height: 50px;
-    width: 20px;
-    border-radius: 3px;
-    background-color: transparent;
-    cursor: pointer;
-    -webkit-appearance: none;
-}
-
-input[type=range]:focus::-webkit-slider-runnable-track{
-    background: white;
-}
-input[type=range]:focus::-moz-range-track{
-    background: white;
-}
-
-.buffer > input[type=range]::-webkit-slider-thumb{
-    background: url(data/icons/zirkel.svg) center center no-repeat;
-    background-size: 50px 40px;
-    margin-top: -26px;
-}
-
-.buffer > input[type=range]::-moz-range-thumb{
-    background: url(data/icons/zirkel.svg) center center no-repeat;
-    background-size: 50px 40px;
-    margin-top: -26px;
-}
-
-.baden > input[type=range]::-webkit-slider-thumb{
-    background: url(data/icons/thermometer_white.svg) center center no-repeat;
-    background-size: 40px 40px;
-    margin-top: -25px;
-}
-.baden > input[type=range]::-moz-range-thumb{
-    background: url(data/icons/thermometer_white.svg) center center no-repeat;
-    background-size: 40px 40px;
-    margin-top: -25px;
-}
-
-/*
-input[type=range]::-ms-track {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-
-input[type=range]::-ms-fill-lower {
-  background: #2a6495;
-  border: 1px solid #ffffff;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-}
-input[type=range]::-ms-fill-upper {
-  background: #3071a9;
-  border: 1px solid #ffffff;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-}
-input[type=range]::-ms-thumb {
-  height: 40px;
-  width: 20px;
-  border-radius: 3px;
-  background-color: transparent;
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-
-.buffer > input[type=range]::-ms-thumb {
-    background: url(data/icons/zirkel.svg) center center no-repeat;
-    background-size: 40px 20px;
-}
-.baden > input[type=range]::-ms-thumb {
-    background: url(data/icons/thermometer_white.svg) center center no-repeat;
-    background-size: 40px 20px;
-}
-*/
 
 #section2 {
     color: whitesmoke;
