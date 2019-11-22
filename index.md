@@ -1,8 +1,3 @@
-<!DOCTYPE html>
----
-permalink: /index.html
----
-    
 <html lang="en">
     
     <head>
