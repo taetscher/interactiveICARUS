@@ -64,7 +64,11 @@ var mouseleave = function(d) {
     //Tooltip function
     Tooltip.style("opacity", 0)
     
+    
+    // also remove appended DIV!!!
     }
+
+
 
 
 
