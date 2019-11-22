@@ -78,7 +78,7 @@ var g = svg.append("g");
 
 var infile1 = "geodata/ref-countries-2016-60m.json/CNTR_BN_60M_2016_4326.json"
 
-var icarusOut = "geodata/icarus_output.csv"
+var icarusOut = "geodata/icarus_output_thresh09.csv"
 
 
 
