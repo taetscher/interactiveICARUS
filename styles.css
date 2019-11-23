@@ -173,12 +173,7 @@ p {
     #map {
     }
 
-    #sidebar {
-        text-align: justify;
-    margin: 20px;
-    background-color: khaki;
-    color: #3f3d3d;
-    }
+    
 .description {
     text-align: justify;
     margin: 20px;
@@ -186,7 +181,12 @@ p {
     color: #3f3d3d;
     
 }
-
+#sidebar {
+    text-align: justify;
+    margin: 20px;
+    background-color: khaki;
+    color: #3f3d3d;
+    }
 form {
     margin: 20px 0px;
 }
