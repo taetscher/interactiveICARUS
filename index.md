@@ -52,13 +52,13 @@
                     </div>
                 </div>
                 <div class="row">
-                <div id="sidebar" class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="sidebar" class="col-sm-12 col-md-12 col-lg-12">
                         <h2 style="color:deeppink">DESCRIPTION</h2>
-                        <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. It is currently a work in progress, hence why the zooming and panning action is still laggy as it can be. Also, please keep in mind that on this map, all of the predictions are shown - while you really can't take any prediction below a confidence of 0.85 too seriously.<br/><br/> 
-                        ICARUS is an image classification algorithm which detects asphalt roads in images. Please read a more detailed description over at <a href="https://taetscher.github.io/ICARUS/" target="_blank">ICARUS' standalone website</a>. <br/><br/>
-                        Also, feel free to read my Master's Thesis (once it's finished and online I will link it here).<br/><br/>
-                        For more about sources of the data used here, or contact information about myself, scroll down.
-                        </p>
+                                <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. ICARUS is an image classification algorithm which detects asphalt roads in images.<br/><br/>You can use your mouse to zoom (mousewheel), pan (click &amp; drag) and hover over the points on the map (which will show you the prediction confidence of ICARUS for each image, as well as the actual image it used to make the prediction). On this map, only predictions above confidence 0.9 are shown - for ICARUS is sometimes still more interested in ceramics, cats or other non-road-things. Also, the tooltip sometimes is a bit finnicky, if it stops behaving properly just reload the page please.<br/><br/>
+                                Please read a more detailed description over at <a href="https://taetscher.github.io/ICARUS/" target="_blank">ICARUS' standalone website</a>. <br/><br/>
+                                Also, feel free to read my Master's Thesis (once it's finished and online I will link it here).<br/><br/>
+                                For more about sources of the data used here, or contact information about myself, scroll down.
+                            </p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-8">
                                     <h6 class="name">BENJAMIN SCHUEPBACH</h6>
-                                    <p>Benjamin is doing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
+                                    <p>Benjamin is currently pursuing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
                                     <p>Coding Languages: mainly Python. <br><a href="mailto:benjamin.schuepbach@students.unibe.ch">Contact me here!</a><br><a href="https://github.com/taetscher" target="_blank">Follow me on GitHub!</a></p>
                                 </div>
                             </div>
