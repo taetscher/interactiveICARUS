@@ -50,7 +50,7 @@ var mouseover = function(d) {
         
     
         if ( featureClass == "point"){
-            Tooltip.html("<img src=" +  d.url  + " width='300' height='auto' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
+            Tooltip.html("<img src=" +  d.url  + " width='500' height='auto' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
             console.log("MOUSEOVER", " ,URL: " + d.url)
         }}
         
@@ -78,7 +78,7 @@ var mouseleave = function(d) {
 
 var svg = d3.select("#map").append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 0 853 788");
+    .attr("viewBox", "0 0 1000 650");
 
 var projection = d3.geo.mercator();
 
