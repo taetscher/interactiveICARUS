@@ -1,14 +1,10 @@
-/* This stylesheet was created within the Open Data Lecture 2019 at the Institute for digital sustainability (Digitale Nachhaltigkeit)
-	at the University of Bern.
-	
+/*	
 	The authors of this stylesheet are:
 	-Benjamin Schüpbach
-	-Christoph von Matt
+
 	
 	Last update: 24.05.2019
 	
-	Licence: CC-BY-SA
-	https://creativecommons.org/licenses/by-sa/4.0/
 
 */
 *{
@@ -270,7 +266,7 @@ li {
 }
 
 .author {
-    margin: 10px 0px;
+    margin: 10px 10px;
     display: flex;
     justify-content: center;
 }

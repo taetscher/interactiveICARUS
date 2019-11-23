@@ -77,7 +77,7 @@ var mouseleave = function(d) {
 //----------------------MAPPING--------------------------
 
 var svg = d3.select("#map").append("svg")
-    .attr("viewBox", "0 0 1000 650");
+    .attr("viewBox", "0 0 853 788");
 
 var projection = d3.geo.mercator();
 

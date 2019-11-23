@@ -70,8 +70,7 @@
                             <a href="https://ec.europa.eu/eurostat/de/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries#countries16" target="_blank">EUROSTAT</a> (map base layer)<br/><br/> 
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                    <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                         <h3>ABOUT THE AUTHOR</h3>
                         <div class="row col-sm-12 col-md-12 col-lg-12">
                             <div class="row col-sm-6 col-md-6 col-lg-12 author">
