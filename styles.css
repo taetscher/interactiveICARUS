@@ -135,6 +135,9 @@ h1 {
     }
 }
 
+.sitename{
+    opacity: 0;
+}
 h2 {
     color: turquoise;
     text-align: center;
