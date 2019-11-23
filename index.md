@@ -77,7 +77,7 @@
                             <div class="row col-sm-6 col-md-6 col-lg-12 author">
                                 <div class="col-sm-12 col-md-12 col-lg-4">
                                     <div class="image-container">
-                                        <img src="dr-eint.png" width=130 height=130 alt="Nothing to see here!"/>
+                                        <img src="dr-eint.png" width=130 height=130/>
                                     </div>   
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-8">
