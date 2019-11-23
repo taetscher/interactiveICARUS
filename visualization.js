@@ -126,7 +126,7 @@ d3.csv(icarusOut, function(csvData){
         .attr("transform", function(d) {
             return "translate(" + projection([(d.lon),(d.lat)]) + ")";
                     })
-        .attr("stroke", "turquoise")
+        .attr("stroke", "#b5e853")
         .attr("stroke-width", 0.5)
         .attr("r", 1)
         .attr("class", "point")
