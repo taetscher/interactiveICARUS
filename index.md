@@ -40,7 +40,7 @@
         <div class="page" style="display: none">
             <div id="section1" class="card">
                 <div class="row">
-                    <div id="sitename" class="col-sm-12 col-md-12 col-lg-9">
+                    <div id="sitename" class="col-sm-12 col-md-12 col-lg-12">
                         <h1>ICARUS</h1>
                         <h3 style="color:turquoise">(Image Classification Algorithm for Road Utility Status)</h3>
                     </div>
