@@ -128,7 +128,7 @@ d3.csv(icarusOut, function(csvData){
                     })
         .attr("stroke", "#b5e853")
         .attr("stroke-width", 0.5)
-        .attr("r", 1)
+        .attr("r", 1.1)
         .attr("class", "point")
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
@@ -145,9 +145,14 @@ var zoom = d3.behavior.zoom()
         g.attr("transform","translate("+ 
             d3.event.translate.join(",")+")scale("+d3.event.scale+")");
         g.selectAll("circle")
-            .attr("d", path.projection(projection));
+            .attr("d", path.projection(projection))
+            .attr("r", .2+(1/d3.event.scale))
+            .attr("stroke-width", .01+(1/d3.event.scale));
         g.selectAll("path")  
             .attr("d", path.projection(projection)); 
+        
+        
+        console.log(d3.event.scale)
 
   });
 
