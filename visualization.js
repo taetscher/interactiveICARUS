@@ -29,17 +29,21 @@ var Tooltip = d3.select("#map")
 // Three function that change the tooltip when user hover / move / leave a cell
 var mouseover = function(d) {
     //use this to position the tooltip over the description field!
-    console.log(d3.select("#map").style("width"))
-    console.log(d3.select("#map").style("height"))
+    console.log(d3.select(this).attr("cx"))
+    console.log(d3.select(this).attr("cx"))
     
     console.log(d3.event.pageX)
+    console.log(d3.event.pageY)
+    
+    var positions = projection([(d.lon),(d.lat)]);
+    console.log(positions[0], positions[1])
 
     Tooltip.transition()    
             .duration(400)    
             .style("opacity", 1)
             .style("border-color", d3.select(this).attr("stroke"))
-            .style("left", (d3.event.pageX+5) + "px")   
-            .style("top", (d3.event.pageY-5) + "px");
+            .style("left", (d3.event.pageX-400) + "px")   
+            .style("top", (d3.event.pageY-200) + "px");
 
         
       /*.style("left", (d3.mouse(this)[0]) + "px")
@@ -51,7 +55,7 @@ var mouseover = function(d) {
         
     
         if ( featureClass == "point"){
-            Tooltip.html("<img src=" +  d.url  + " width='400' height='auto' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
+            Tooltip.html("<img src=" +  d.url  + " width='auto' height='300' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
             console.log("MOUSEOVER", " ,URL: " + d.url)
         }}
         
