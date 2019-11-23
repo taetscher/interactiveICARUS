@@ -15,16 +15,16 @@
 // Tooltip
 // create a tooltip
 var Tooltip = d3.select("#map")
-  .append("div")
-  .attr("class", "tooltip")
-  .attr("position", "fixed")
-  .style("opacity", 0)
-  .style("background-color", "#3f3d3d")
-  .style("border", "solid")
-  .style("color", "whitesmoke")
-  .style("border-width", "2px")
-  .style("border-radius", "5px")
-  .style("padding", "5px")
+    .append("div")
+    .attr("class", "tooltip")
+    .attr("position", "fixed")
+    .style("opacity", 0)
+    .style("background-color", "#3f3d3d")
+    .style("border", "solid")
+    .style("color", "whitesmoke")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
 
 // Three function that change the tooltip when user hover / move / leave a cell
 var mouseover = function(d) {
@@ -39,6 +39,7 @@ var mouseover = function(d) {
         .style("top", ((d3.event.pageY/2))+ "px")
 
         .style("opacity", 1)
+
         
       /*.style("left", (d3.mouse(this)[0]) + "px")
         .style("top", (d3.mouse(this)[1]) + "px");*/
@@ -66,6 +67,7 @@ var mouseleave = function(d) {
     
     
     // also remove appended DIV!!!
+    d3.select("tooltip").remove();
     }
 
 
