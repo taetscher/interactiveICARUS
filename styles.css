@@ -174,11 +174,17 @@ p {
     }
 
     #sidebar {
-    
+        text-align: justify;
+    margin: 20px;
+    background-color: khaki;
+    color: #3f3d3d;
     }
 .description {
     text-align: justify;
     margin: 20px;
+    background-color: khaki;
+    color: #3f3d3d;
+    
 }
 
 form {
@@ -189,7 +195,6 @@ label {
     margin-left: 5px;
     color: whitesmoke;
 }
-
 
 
 #section2 {

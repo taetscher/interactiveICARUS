@@ -42,7 +42,7 @@
                 <div class="row">
                     <div id="sitename" class="col-sm-12 col-md-12 col-lg-12">
                         <h1>ICARUS</h1>
-                        <h3 style="color:turquoise">(Image Classification Algorithm for Road Utility Status)</h3>
+                        <h3 style="color:#b5e853">(Image Classification Algorithm for Road Utility Status)</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="row">
                 <div id="sidebar" class="col-sm-12 col-md-12 col-lg-12">
-                        <h2>DESCRIPTION</h2>
+                        <h2 style="color:deeppink">DESCRIPTION</h2>
                         <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. It is currently a work in progress, hence why the zooming and panning action is still laggy as it can be. Also, please keep in mind that on this map, all of the predictions are shown - while you really can't take any prediction below a confidence of 0.85 too seriously.<br/><br/> 
                         ICARUS is an image classification algorithm which detects asphalt roads in images. Please read a more detailed description over at <a href="https://taetscher.github.io/ICARUS/" target="_blank">ICARUS' standalone website</a>. <br/><br/>
                         Also, feel free to read my Master's Thesis (once it's finished and online I will link it here).<br/><br/>
