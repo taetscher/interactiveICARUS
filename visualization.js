@@ -17,7 +17,6 @@
 var Tooltip = d3.select("#map")
     .append("div")
     .attr("class", "tooltip")
-    .attr("position", "fixed")
     .style("opacity", 0)
     .style("background-color", "#3f3d3d")
     .style("border", "solid")
@@ -25,6 +24,7 @@ var Tooltip = d3.select("#map")
     .style("border-width", "2px")
     .style("border-radius", "5px")
     .style("padding", "5px")
+
 
 // Three function that change the tooltip when user hover / move / leave a cell
 var mouseover = function(d) {
@@ -34,11 +34,12 @@ var mouseover = function(d) {
     
     console.log(d3.event.pageX)
 
-  Tooltip.style("border-color", d3.select(this).attr("stroke"))
-        .style("left", (d3.event.pageX-400) + "px")
-        .style("top", ((d3.event.pageY/-100))+ "px")
-
-        .style("opacity", 1)
+    Tooltip.transition()    
+            .duration(400)    
+            .style("opacity", 1)
+            .style("border-color", d3.select(this).attr("stroke"))
+            .style("left", (d3.event.pageX+5) + "px")   
+            .style("top", (d3.event.pageY-5) + "px");
 
         
       /*.style("left", (d3.mouse(this)[0]) + "px")
@@ -50,7 +51,7 @@ var mouseover = function(d) {
         
     
         if ( featureClass == "point"){
-            Tooltip.html("<img src=" +  d.url  + " width='500' height='auto' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
+            Tooltip.html("<img src=" +  d.url  + " width='400' height='auto' />" + "<br/>Prediction Confidence: " + parseFloat(d.avr_prediction_conf).toFixed(2))
             console.log("MOUSEOVER", " ,URL: " + d.url)
         }}
         
@@ -63,7 +64,9 @@ var mousemove = function(d) {
 }
 var mouseleave = function(d) {
     //Tooltip function
-    Tooltip.style("opacity", 0)
+    Tooltip.transition()    
+            .duration(500)    
+            .style("opacity", 0);
     
     
     // also remove appended DIV!!!
