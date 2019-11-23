@@ -35,8 +35,8 @@ var mouseover = function(d) {
     console.log(d3.event.pageX)
 
   Tooltip.style("border-color", d3.select(this).attr("stroke"))
-        .style("left", (d3.event.pageX+30) + "px")
-        .style("top", ((d3.event.pageY/2))+ "px")
+        .style("left", (d3.event.pageX-400) + "px")
+        .style("top", ((d3.event.pageY/2)-100)+ "px")
 
         .style("opacity", 1)
 
@@ -77,7 +77,6 @@ var mouseleave = function(d) {
 //----------------------MAPPING--------------------------
 
 var svg = d3.select("#map").append("svg")
-    .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 1000 650");
 
 var projection = d3.geo.mercator();
