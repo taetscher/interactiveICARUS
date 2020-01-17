@@ -94,7 +94,7 @@
             <div class="impressum col-sm-12 col-md-12 col-lg-12">
                 <p><strong>Impressum</strong> <br>
                 This work is licenced under <a href="https://www.gnu.org/licenses/gpl-3.0.de.html" target="_blank">GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007</a>.<br>Last Revision: 21.11.2019, 16:41</p>
+                       Version 3, 29 June 2007</a>.<br>Last Revision: 17.01.2020, 14:39</p>
             </div>
         </div>
         <!-- Script for Visualization-App -->
