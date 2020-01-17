@@ -56,7 +56,7 @@
                         <h2 style="color:deeppink">DESCRIPTION</h2>
                                 <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. ICARUS is an image classification algorithm which detects asphalt roads in images.<br/><br/>You can use your mouse to zoom (mousewheel), pan (click &amp; drag) and hover over the points on the map (which will show you the prediction confidence of ICARUS for each image, as well as the actual image it used to make the prediction). On this map, only predictions above confidence 0.9 are shown - for ICARUS is sometimes still more interested in ceramics, cats or other non-road-things. Also, the tooltip sometimes is a bit finnicky, if it stops behaving properly just reload the page please.<br/><br/>
                                 Please read a more detailed description over at <a href="https://taetscher.github.io/ICARUS/" target="_blank">ICARUS' standalone website</a>. <br/><br/>
-                                Also, feel free to read my <a href="https://github.com/taetscher/MastersThesis/blob/master/MastersThesis.pdf" target="_blank">Master's Thesis</a>.<br/><br/>
+                                Also, feel free to read my <a href="https://github.com/taetscher/MastersThesis/blob/master/BIGGER_IS_BETTER__OR_IS_IT_MastersThesisBS14100564.pdf" target="_blank">Master's Thesis</a>.<br/><br/>
                                 For more about sources of the data used here, or contact information about myself, scroll down.
                             </p>
                     </div>
