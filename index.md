@@ -62,35 +62,6 @@
                     </div>
                 </div>
             </div>
-            <div id="section3" class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                        <h3>ABOUT THE DATA</h3>
-                        <p> The data used to generate this map comes from:<br/><br/>
-                            Outputs of <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a> (prediction confidence) <br/><br/>
-                            <a href="https://twitter.com/home?lang=de" target="_blank">Twitter</a> (all of the images that are loaded)<br/><br/>
-                            <a href="https://ec.europa.eu/eurostat/de/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries#countries16" target="_blank">EUROSTAT</a> (map base layer)<br/><br/> 
-                        </p>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                        <h3>ABOUT THE AUTHOR</h3>
-                        <div class="row col-sm-12 col-md-12 col-lg-12">
-                            <div class="row col-sm-6 col-md-6 col-lg-12 author">
-                                <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <div class="image-container">
-                                        <img src="dr_eint.png" width="130px" height="130px"/>
-                                    </div>   
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-8">
-                                    <h6 class="name">BENJAMIN SCHUEPBACH</h6>
-                                    <p>Benjamin is currently pursuing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
-                                    <p>Coding Languages: mainly Python. <br><a href="mailto:benjamin.schuepbach@students.unibe.ch">Contact me here!</a><br><a href="https://github.com/taetscher" target="_blank">Follow me on GitHub!</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div id="section4" class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
@@ -132,6 +103,35 @@
                     </div>
                 </div>
             </div>    
+            <div id="section3" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3>ABOUT THE DATA</h3>
+                        <p> The data used to generate this map comes from:<br/><br/>
+                            Outputs of <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a> (prediction confidence) <br/><br/>
+                            <a href="https://twitter.com/home?lang=de" target="_blank">Twitter</a> (all of the images that are loaded)<br/><br/>
+                            <a href="https://ec.europa.eu/eurostat/de/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries#countries16" target="_blank">EUROSTAT</a> (map base layer)<br/><br/> 
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3>ABOUT THE AUTHOR</h3>
+                        <div class="row col-sm-12 col-md-12 col-lg-12">
+                            <div class="row col-sm-6 col-md-6 col-lg-12 author">
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <div class="image-container">
+                                        <img src="dr_eint.png" width="130px" height="130px"/>
+                                    </div>   
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8">
+                                    <h6 class="name">BENJAMIN SCHUEPBACH</h6>
+                                    <p>Benjamin is currently pursuing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
+                                    <p>Coding Languages: mainly Python. <br><a href="mailto:benjamin.schuepbach@students.unibe.ch">Contact me here!</a><br><a href="https://github.com/taetscher" target="_blank">Follow me on GitHub!</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <div class="impressum col-sm-12 col-md-12 col-lg-12">
                 <p><strong>Impressum</strong> <br>
                 This work is licenced under <a href="https://www.gnu.org/licenses/gpl-3.0.de.html" target="_blank">GNU GENERAL PUBLIC LICENSE
