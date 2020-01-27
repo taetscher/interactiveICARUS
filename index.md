@@ -124,8 +124,8 @@
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-8">
                                     <h6 class="name">BENJAMIN SCHUEPBACH</h6>
-                                    <p>Benjamin is currently pursuing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
-                                    <p>Coding Languages: mainly Python. <br><a href="mailto:benjamin.schuepbach@students.unibe.ch">Contact me here!</a><br><a href="https://github.com/taetscher" target="_blank">Follow me on GitHub!</a></p>
+                                    <p><a href="https://www.linkedin.com/in/benjamin-sch%C3%BCpbach-0a1b15129/" target="_blank">Benjamin</a> is currently pursuing a Master's degree in Geography at the University of Bern, Switzerland. His other interests mainly consist of handball and quality banter. He has been to India once.</p>
+                                    <p>Coding Languages: mainly Python. <br><a href="mailto:beni.schuepbach@hispeed.ch">Contact me here!</a><br><a href="https://github.com/taetscher" target="_blank">Follow me on GitHub!</a></p>
                                 </div>
                             </div>
                         </div>
