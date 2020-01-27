@@ -66,18 +66,18 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <h3>ABSTRACT</h3>
-                        <p> With the emergence of the Internet of Things (IoT) and the extensive amount of
+                        <p text-align="justify"> With the emergence of the Internet of Things (IoT) and the extensive amount of
                             data produced by it, science's desire to investigate this vast amount of untapped
                             data is growing, resulting in the paradigm of big data: data sets of exceedingly large
                             volumes, growing at exceptional rates, consisting of enormous amounts of structured
                             and unstructured data. At the same time, artifcial intelligence (AI) techniques
-                            needed to analyze data sets of these proportions continue to improve.
+                            needed to analyze data sets of these proportions continue to improve.<br/><br/>
                             The potentials attributed to big data analyses are extensive, particularly in the
                             context of efficiently generating reliable, up-to-date data to measure progress towards
                             the Agenda 2030's Sustainable Development Goals (SDGs). However, many scientific
                             contributions in this domain, focusing on unexploited capacities, rely on future
                             technological progress and therefore project prospective potentials. Yet, the SDGs
-                            were designed to tackle current global challenges.<br>
+                            were designed to tackle current global challenges.<br/><br/>
                             For some of the indicators of sustainability introduced with the SDGs, it is still
                             unclear how reliable data can efficiently be generated. Therefore, this study examines
                             current technological capabilities and their potential contribution to overcoming a
@@ -85,14 +85,14 @@
                             classification algorithm (deep neural network) to geolocated media content posted to
                             Twitter, in order to both illustrate the current potentials of such an approach, as well
                             as challenges left to overcome if big data is to be used to generate useful information
-                            for measuring progress towards the SDGs.<br>
+                            for measuring progress towards the SDGs.<br/><br/>
                             The findings of this study show that current technological capabilities already
                             facilitate real-time analyses of big data from social media on a global scale. Yet, biases
                             within the data, resulting from uncertainties regarding the accuracy of geolocated
                             social media posts, along with low internet penetration rates and a consequent lack
                             of data - coupled with an unavailability of data from prime sources like Facebook
                             and Instagram - render such analyses incomplete, thus diminishing the significance of
-                            information gained this way.<br>
+                            information gained this way.<br/><br/>
                             Better access to more data from diverse sources is needed to improve on our
                             current capacities to generate reliable data to monitor progress towards improving
                             sustainability. However, especially analyses of data from social media are embedded in
