@@ -53,8 +53,9 @@
                 </div>
                 <div class="row">
                     <div id="sidebar" class="col-sm-12 col-md-12 col-lg-12">
+                        <br/>
                         <h2 style="color:deeppink">DESCRIPTION</h2>
-                                <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. ICARUS is an image classification algorithm which detects asphalt roads in images.<br/><br/>You can use your mouse to zoom (mousewheel), pan (click &amp; drag) and hover over the points on the map (which will show you the prediction confidence of ICARUS for each image, as well as the actual image it used to make the prediction). On this map, only predictions above confidence 0.9 are shown - for ICARUS is sometimes still more interested in ceramics, cats or other non-road-things. Also, the tooltip sometimes is a bit finnicky, if it stops behaving properly just reload the page please.<br/><br/>
+                                <p class="description"> This Map shows results aquired using <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a>. ICARUS is an image classification algorithm which detects asphalt roads in images.<br/><br/>You can use your mouse to zoom (mousewheel), pan (click &amp; drag) and hover over the points on the map (which will show you the prediction confidence of ICARUS for each image, as well as the actual image it used to make the prediction). On this map, only predictions above confidence 0.9 are shown - for ICARUS is sometimes still more interested in ceramics, cats or other non-road-things. Also, the tooltip sometimes is a bit finnicky, if it stops behaving properly just reload the page please. This page is best displayed on a desktop PC in a Google Chrome browser.<br/><br/>
                                 Please read a more detailed description over at <a href="https://taetscher.github.io/ICARUS/" target="_blank">ICARUS' standalone website</a>. <br/><br/>
                                 Also, feel free to read my <a href="https://github.com/taetscher/MastersThesis/blob/master/BIGGER_IS_BETTER__OR_IS_IT_MastersThesisBS14100564.pdf" target="_blank">Master's Thesis</a>, for which ICARUS was used.<br/><br/>
                                 For more about sources of the data used here, or contact information about myself, scroll down.
@@ -65,9 +66,9 @@
             <div id="section4" class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
-                        <h3>ABSTRACT</h3>
-                        <br/><br/>
-                        <p text-align="justify"> With the emergence of the Internet of Things (IoT) and the extensive amount of
+                        <br/>
+                        <h2 style="color:deeppink">ABSTRACT</h2>
+                        <p class="description"> With the emergence of the Internet of Things (IoT) and the extensive amount of
                             data produced by it, science's desire to investigate this vast amount of untapped
                             data is growing, resulting in the paradigm of big data: data sets of exceedingly large
                             volumes, growing at exceptional rates, consisting of enormous amounts of structured
@@ -108,8 +109,8 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <h3>ABOUT THE DATA</h3>
-                        <p> The data used to generate this map comes from:<br/><br/>
-                            Outputs of <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a> (prediction confidence) <br/><br/>
+                        <p align="center"> The data used to generate this map comes from:<br/><br/>
+                            Outputs of <a href="https://github.com/taetscher/ICARUS" target="_blank">ICARUS</a> (predictions) <br/><br/>
                             <a href="https://twitter.com/home?lang=de" target="_blank">Twitter</a> (all of the images that are loaded)<br/><br/>
                             <a href="https://ec.europa.eu/eurostat/de/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries#countries16" target="_blank">EUROSTAT</a> (map base layer)<br/><br/> 
                         </p>
