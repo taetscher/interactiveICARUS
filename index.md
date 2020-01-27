@@ -66,6 +66,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <h3>ABSTRACT</h3>
+                        <br/><br/>
                         <p text-align="justify"> With the emergence of the Internet of Things (IoT) and the extensive amount of
                             data produced by it, science's desire to investigate this vast amount of untapped
                             data is growing, resulting in the paradigm of big data: data sets of exceedingly large
