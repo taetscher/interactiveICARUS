@@ -240,6 +240,13 @@ li {
     border-color: inherit;
 }
 
+#section4 {
+    background-color: khaki;
+    color: #3f3d3d;
+    
+}
+
+
 #section3 {
     background-color: khaki;
     color: #3f3d3d;
@@ -286,12 +293,3 @@ li {
     text-align: center;
 }
 
-#section4 {
-    background-color: khaki;
-    color: #3f3d3d;
-    
-}
-
-#section4 h2 {
-    margin: 10px;
-}
